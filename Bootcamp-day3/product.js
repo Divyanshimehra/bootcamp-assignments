@@ -63,9 +63,14 @@ console.log(product2.getDiscountedPrice(20));
             var categoryEl = document.createElement('p');
             categoryEl.textContent = 'Category: ' + p.category;
 
+            var discountedPriceEl = document.createElement('p');
+            var discountedPrice = p.getDiscountedPrice(10); // Example: 10% discount
+            discountedPriceEl.textContent = 'Price after 10% discount: ' + discountedPrice;
+
             card.appendChild(nameEl);
             card.appendChild(priceEl);
             card.appendChild(categoryEl);
+            card.appendChild(discountedPriceEl);
 
             // Highlight when mouse enters
             card.addEventListener('mouseenter', function () {
