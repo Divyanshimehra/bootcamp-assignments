@@ -67,7 +67,7 @@ const arr2=[3,9,7];
 const mergedArray= [...arr1,...arr2];
 console.log(mergedArray);
 function findMax(mergedArray){
-    return Math.max(...arr1);
+    return Math.max(...mergedArray);
 }
 console.log(findMax(mergedArray)); ///////////////checkkkkk issue
 
