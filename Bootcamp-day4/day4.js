@@ -21,7 +21,7 @@ function formatString(name='Divyanshi', age='23'){
 
 console.log(formatString('Charlie', '30'));
 console.log(formatString('Aisha'));
-console.log(formatString('25')); //???????? if name default
+console.log(formatString(undefined, '25')); //???????? if name default
 console.log(formatString());
 
 
@@ -67,7 +67,7 @@ const arr2=[3,9,7];
 const mergedArray= [...arr1,...arr2];
 console.log(mergedArray);
 function findMax(mergedArray){
-    return Math.max(mergedArray);
+    return Math.max(...arr1);
 }
 console.log(findMax(mergedArray)); ///////////////checkkkkk issue
 
