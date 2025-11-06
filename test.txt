@@ -1,4 +1,5 @@
 Hello Git
 just checking
 
-Line from f1
+Line is from f1 branch
+git merge checking.
