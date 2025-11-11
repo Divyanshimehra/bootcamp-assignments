@@ -1,5 +1,10 @@
 Hello Git
 just checking
 
+Line is from f1 branch
+git merge checking.
 this line is written in f2
 merge check?
+
+
+
